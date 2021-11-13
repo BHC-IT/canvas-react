@@ -27,7 +27,8 @@
 		"serve": "parcel ./src/index.html"
 	},
 	"peerDependencies": {
-		"react": ">=16"
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
 	},
 	"prettier": {
 		"printWidth": 80,
@@ -46,13 +47,14 @@
 			"limit": "10 KB"
 		}
 	],
-	"peerDependencies": {
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
-	},
 	"devDependencies": {
 		"@babel/preset-react": "^7.16.0",
 		"@babel/preset-typescript": "^7.16.0",
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/commit-analyzer": "^9.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/npm": "^8.0.3",
+		"@semantic-release/release-notes-generator": "^10.0.2",
 		"@size-limit/preset-small-lib": "^6.0.4",
 		"@types/react": "^17.0.34",
 		"@types/react-dom": "^17.0.11",
@@ -73,7 +75,5 @@
 		"webpack": "^5.64.0",
 		"webpack-cli": "^4.9.1",
 		"webpack-dev-server": "^4.4.0"
-	},
-	"dependencies": {
 	}
 }
